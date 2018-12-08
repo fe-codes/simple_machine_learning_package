@@ -5,6 +5,7 @@ import random
 
 def get_data(dim = 2,classes = 2,count = 1000,train_ratio = 0.8,scale = None,tightness = None,centroids = None,if_show = False):
     '''
+    Generate data clusters randomly for classification tasks.
     dim -> the dimension of the data vector
     classes -> number of clusters
     count -> total samples
